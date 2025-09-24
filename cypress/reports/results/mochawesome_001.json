@@ -1,0 +1,114 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-09-11T07:39:41.003Z",
+    "end": "2025-09-11T07:44:57.122Z",
+    "duration": 316119,
+    "testsRegistered": 2,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1312265b-e0d2-44b6-a2c4-dffd2d194740",
+      "title": "",
+      "fullFile": "cypress\\e2e\\invoice\\allocateTimeOnInvoice (2).feature",
+      "file": "cypress\\e2e\\invoice\\allocateTimeOnInvoice (2).feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "be05c64c-4204-45ac-a10e-f3bd6aa4125c",
+          "title": "APM Revamp Invoicing - Allocate Time on Invoice (AAEP-23181)",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify the Invoice Allocations - Disbursements Integration (AAEP-23180)",
+              "fullTitle": "APM Revamp Invoicing - Allocate Time on Invoice (AAEP-23181) Verify the Invoice Allocations - Disbursements Integration (AAEP-23180)",
+              "timedOut": null,
+              "duration": 309751,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "[\n  {\n    \"title\": \"cypress-mochawesome-reporter-screenshots\",\n    \"value\": [\n      [\n        \"\\\\allocateTimeOnInvoice (2).feature\\\\APM Revamp Invoicing - Allocate Time on Invoice (AAEP-23181) -- Verify the Invoice Allocations - Disbursements Integration (AAEP-23180) (failed).png\"\n      ]\n    ]\n  },\n  \"Before Hook\",\n  \"Before Each Hook\",\n  \"After Each Hook\",\n  \"After Hook\"\n]",
+              "code": "",
+              "err": {
+                "message": "CypressError: Timed out retrying after 50050ms: `cy.click()` failed because this element:\n\n`<input lwc-4kb6kaqheak=\"\" class=\"slds-combobox__input slds-input\" id=\"combobox-input-346\" type=\"text\" role=\"combobox\" aria-expanded=\"false\" aria-haspopup=\"listbox\" required=\"\" autocomplete=\"off\" data-value=\"\" placeholder=\"Search Employees...\" maxlength=\"255\" aria-disabled=\"false\" aria-autocomplete=\"list\" part=\"input\" aria-controls=\"dropdown-element-346\">`\n\nis being covered by another element:\n\n`<div class=\"spacer-pull-to-load-more\" style=\"height: 920px;\"></div>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with",
+                "estack": "CypressError: Timed out retrying after 50050ms: `cy.click()` failed because this element:\n\n`<input lwc-4kb6kaqheak=\"\" class=\"slds-combobox__input slds-input\" id=\"combobox-input-346\" type=\"text\" role=\"combobox\" aria-expanded=\"false\" aria-haspopup=\"listbox\" required=\"\" autocomplete=\"off\" data-value=\"\" placeholder=\"Search Employees...\" maxlength=\"255\" aria-disabled=\"false\" aria-autocomplete=\"list\" part=\"input\" aria-controls=\"dropdown-element-346\">`\n\nis being covered by another element:\n\n`<div class=\"spacer-pull-to-load-more\" style=\"height: 920px;\"></div>`\n\nFix this problem, or use {force: true} to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at ensureIsDescendent (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:112915:68)\n    at ensureDescendents (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:112966:5)\n    at ensureDescendentsAndScroll (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:112972:14)\n    at ensureElIsNotCovered (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:113103:5)\n    at runAllChecks (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:113302:52)\n    at retryActionability (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:113339:16)\n    at tryCatcher (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:1830:23)\n    at Promise.attempt.Promise.try (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:4338:29)\n    at whenStable (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:143744:68)\n    at <unknown> (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:143685:14)\n    at tryCatcher (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:1830:23)\n    at Promise._settlePromiseFromHandler (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:1542:31)\n    at Promise._settlePromise (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:1599:18)\n    at Promise._settlePromise0 (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:1644:10)\n    at Promise._settlePromises (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:1724:18)\n    at Promise._fulfill (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:1668:18)\n    at <unknown> (https://aac-qa-automationapr11.my.salesforce.com/__cypress/runner/cypress_runner.js:5473:46)\nFrom Your Spec Code:\n    at newtimesheetentriesPage.typeemployeeselection (https://aac-qa-automationapr11.my.salesforce.com/__cypress/tests?p=cypress\\e2e\\invoice\\allocateTimeOnInvoice%202.feature:6740:37)\n    at jobHelper.settheTimesheetentriesdetails (https://aac-qa-automationapr11.my.salesforce.com/__cypress/tests?p=cypress\\e2e\\invoice\\allocateTimeOnInvoice%202.feature:1099:33)\n    at Context.eval (https://aac-qa-automationapr11.my.salesforce.com/__cypress/tests?p=cypress\\e2e\\invoice\\allocateTimeOnInvoice%202.feature:10997:23)\n    at Registry.runStepDefininition (https://aac-qa-automationapr11.my.salesforce.com/__cypress/tests?p=cypress\\e2e\\invoice\\allocateTimeOnInvoice%202.feature:14175:46)\n    at Object.fn (https://aac-qa-automationapr11.my.salesforce.com/__cypress/tests?p=cypress\\e2e\\invoice\\allocateTimeOnInvoice%202.feature:12349:52)\n    at runStepWithLogGroup (https://aac-qa-automationapr11.my.salesforce.com/__cypress/tests?p=cypress\\e2e\\invoice\\allocateTimeOnInvoice%202.feature:13404:25)\n    at Context.eval (https://aac-qa-automationapr11.my.salesforce.com/__cypress/tests?p=cypress\\e2e\\invoice\\allocateTimeOnInvoice%202.feature:12345:70)",
+                "diff": null
+              },
+              "uuid": "5efe73de-191f-4521-b3a1-69d7ba741851",
+              "parentUUID": "be05c64c-4204-45ac-a10e-f3bd6aa4125c",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "5efe73de-191f-4521-b3a1-69d7ba741851"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 309751,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "embeddedScreenshots": true,
+        "code": false,
+        "charts": true,
+        "inlineAssets": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

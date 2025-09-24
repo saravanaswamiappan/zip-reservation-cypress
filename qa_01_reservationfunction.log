@@ -1,0 +1,97 @@
+
+cypress-watch-and-reload: disabled during the run mode
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.17.0                                                                        │
+  │ Browser:        Electron 118                                                                   │
+  │ Node Version:   v22.16.0 (C:\Program Files\nodejs\node.exe)                                    │
+  │ Specs:          1 found (reservation.feature)                                                  │
+  │ Searched:       C:\Users\Saravana.Kumar\source\repos\zip_reservation\cypress\e2e\reservation\* │
+  │                 .feature                                                                       │
+  │ Experiments:    experimentalRunAllSpecs=true,experimentalMemoryManagement=true,experimentalMo… │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  reservation.feature                                                             (1 of 1)
+
+Oops...we found an error preparing this test file:
+
+  > cypress\e2e\reservation\reservation.feature
+
+The error was:
+
+Error: Webpack Compilation Error
+Module parse failed: Unexpected token (44:9)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+|                 numberofroomswithtv = numberofroomswithtv + 1; 
+|             }    
+>         })       
+|     }
+| 
+    at handle (C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\@cypress\webpack-preprocessor\dist\index.js:212:23)
+    at finalCallback (C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\webpack\lib\Compiler.js:521:32)
+    at C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\webpack\lib\Compiler.js:599:17
+    at C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\webpack\lib\HookWebpackError.js:68:2
+    at Hook.eval [as callAsync] (eval at create (C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:6:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\tapable\lib\Hook.js:21:14)
+    at Cache.storeBuildDependencies (C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\webpack\lib\Cache.js:128:37)
+    at C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\webpack\lib\Compiler.js:595:19
+    at Hook.eval [as callAsync] (eval at create (C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:6:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\tapable\lib\Hook.js:21:14)
+    at C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\webpack\lib\Compiler.js:591:23
+    at Compiler.emitRecords (C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\webpack\lib\Compiler.js:1068:4)
+    at C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\webpack\lib\Compiler.js:581:11
+    at C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\webpack\lib\Compiler.js:1031:14
+    at Hook.eval [as callAsync] (eval at create (C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:6:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\tapable\lib\Hook.js:21:14)
+    at C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\webpack\lib\Compiler.js:1028:27
+    at C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\neo-async\async.js:2818:7
+    at done (C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\neo-async\async.js:3522:9)
+    at Hook.eval [as callAsync] (eval at create (C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\tapable\lib\HookCodeFactory.js:31:10), <anonymous>:6:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\tapable\lib\Hook.js:21:14)
+    at C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\webpack\lib\Compiler.js:857:33
+    at C:\Users\Saravana.Kumar\source\repos\zip_reservation\node_modules\graceful-fs\graceful-fs.js:143:16
+    at C:\Users\Saravana.Kumar\AppData\Local\Cypress\Cache\13.17.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at C:\Users\Saravana.Kumar\AppData\Local\Cypress\Cache\13.17.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:143:16
+    at C:\Users\Saravana.Kumar\AppData\Local\Cypress\Cache\13.17.0\Cypress\resources\app\node_modules\@packages\server\node_modules\graceful-fs\graceful-fs.js:61:14
+    at FSReqCallback.oncomplete (node:fs:188:23)
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        0                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     0 seconds                                                                        │
+  │ Spec Ran:     reservation.feature                                                              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ×  reservation.feature                        0ms        -        -        1        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ×  1 of 1 failed (100%)                       0ms        -        -        1        -        -  
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="21.318" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2025-09-23T09:34:51" tests="0" file="cypress\e2e\reservation\reservation.feature" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Reservation features" timestamp="2025-09-23T09:34:51" tests="1" failures="0" time="21.318">
+    <testcase name="Reservation features Verify the room features and make a reservation" time="21.318" classname="Verify the room features and make a reservation" failure="false" error="false" success="true">
+    </testcase>
+  </testsuite>
+</testsuites>

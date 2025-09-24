@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-09-23T09:34:51.105Z",
+    "end": "2025-09-23T09:35:19.916Z",
+    "duration": 28811,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6da9b1a4-f361-4a80-a6c2-674d5fa8799a",
+      "title": "",
+      "fullFile": "cypress\\e2e\\reservation\\reservation.feature",
+      "file": "cypress\\e2e\\reservation\\reservation.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fad9e231-e40f-4225-bb02-f3c82756f932",
+          "title": "Reservation features",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify the room features and make a reservation",
+              "fullTitle": "Reservation features Verify the room features and make a reservation",
+              "timedOut": null,
+              "duration": 21318,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "[\n  {\n    \"title\": \"cypress-mochawesome-reporter-screenshots\",\n    \"value\": [\n      []\n    ]\n  },\n  \"Before Hook\",\n  \"Before Each Hook\",\n  \"After Each Hook\",\n  \"After Hook\"\n]",
+              "code": "",
+              "err": {},
+              "uuid": "ae0644cb-234d-45ae-bec2-b54de028a3de",
+              "parentUUID": "fad9e231-e40f-4225-bb02-f3c82756f932",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ae0644cb-234d-45ae-bec2-b54de028a3de"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 21318,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/results",
+        "overwrite": false,
+        "html": true,
+        "json": true,
+        "embeddedScreenshots": true,
+        "code": false,
+        "charts": true,
+        "inlineAssets": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
