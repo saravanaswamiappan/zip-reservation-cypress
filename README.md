@@ -34,3 +34,6 @@ qa_01_reservationfunction -> log file
 
 2. Under zip-reservation-cypress\cypress\reports,
 cucumber-report -> cucumber json report
+
+Note: If there is any client error at the end, it could be with the room is not available for the selected dates. Please try with different dates.
+In that case, please adjust the dates in fixtures\Builders\datesBuilder.js file and re-run the test. 
