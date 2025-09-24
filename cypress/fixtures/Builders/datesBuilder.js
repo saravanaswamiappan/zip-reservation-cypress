@@ -7,8 +7,8 @@ if (Cypress.env('envname') == 'qa') {
 class datesBuilder { 
     setupdataDates() {
 
-        dates.checkindate = dayjs().add(21, 'day').format('DD/MM/YYYY')
-        dates.checkoutdate = dayjs().add(23, 'day').format('DD/MM/YYYY')
+        dates.checkindate = dayjs().add(1, 'day').format('DD/MM/YYYY')
+        dates.checkoutdate = dayjs().add(3, 'day').format('DD/MM/YYYY')
         }
 };
 export default datesBuilder;
